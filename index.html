@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images\srit logo.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">STUDENTS</a></li>
+                    <li><a href="">EVENTS</a></li>
+                    <li><a href="faculty.html">FACULTY</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Department Of Data Science</h1>
+            
+            <p>Lorem ipsu m lotesdcvhytfcvh<br>gfvbhgvbhgvbhgvbhgbvbnhbvbhb
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+
+
+
+    <!--------Events---------->
+    <section class="Events">
+        <h1>Upcoming Events</h1>
+        <p>Lorem ipsum Lorem ipsum Lorem 
+            ipsum Lorem ipsum Lorem ipsum</p>
+        <div class="row">
+            <div class="events-col">
+            <h3>Upcoming Events</h3>
+            <p>Lorem ipsum Lorem ipsum Lorem
+                 ipsum Lorem ipsum Lorem ipsum
+                 Lorem ipsum Lorem ipsum Lorem
+                  ipsum Lorem ipsum Lorem ipsum 
+                  Lorem ipsum Lorem ipsum</p>
+        </div>
+        
+            <div class="events-col">
+            <h3>Upcoming Events</h3>
+            <p>Lorem ipsum Lorem ipsum Lorem
+                 ipsum Lorem ipsum Lorem ipsum
+                  Lorem ipsum Lorem ipsum Lorem 
+                  ipsum Lorem ipsum Lorem ipsum 
+                  Lorem ipsum Lorem ipsum</p>
+        </div>
+        
+            <div class="events-col">
+            <h3>Upcoming Events</h3>
+            <p>Lorem ipsum Lorem ipsum Lorem ipsum
+                 Lorem ipsum Lorem ipsum Lorem ipsum 
+                Lorem ipsum Lorem ipsum Lorem ipsum
+                 Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        </div>
+    </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+var closeIcon = document.querySelector(".fa-times");
+var menuIcon = document.querySelector(".fa-bars");
+
+function showMenu() {
+    navLinks.style.right = "0";
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+}
+
+    </script>
+
+</body>
+</html>
